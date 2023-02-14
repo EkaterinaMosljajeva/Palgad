@@ -225,11 +225,4 @@ def protsent_5(i:list,p:list):
     :param list x: Inimeste järjend
     :param list y: Palgade järjend
     :rtype:str
-    """
-    aasta=input("Pärast seda, kui palju aastaid palka näidata? ")
-    for j in range(0,len(i)):
-        p1=p[j]
-        for jj in range (j,int(aasta)):
-            p1*=1.05
-        print(f"{i[p]} palk {aasta} aasta pärast on {p1} eurot")
-    return i,p
+    """ 
